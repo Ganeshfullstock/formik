@@ -1,13 +1,6 @@
 import React from 'react';
 import { useFormik } from 'formik';
 import * as yup from "yup";
-
-
-
-
-
-
-
 function App() {
   const formik = useFormik({
     initialValues: { name: "", email: "", list: "", password: "", confirmPassword: "" },
